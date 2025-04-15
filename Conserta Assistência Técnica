@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserta Assistência Técnica</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Conserta Assistência Técnica</h1>
+    </header>
+
+    <!-- Galeria de Fotos -->
+    <section class="gallery">
+        <h2>Nossos Serviços</h2>
+        <div class="image-grid">
+            <img src="imagens/lavadora1.jpg" alt="Conserto de Lavadoras">
+            <img src="imagens/lavadora2.jpg" alt="Peças Originais">
+            <img src="imagens/lavadora3.jpg" alt="Atendimento Rápido">
+        </div>
+    </section>
+
+    <!-- Botão do WhatsApp Fixo -->
+    <a href="https://wa.me/558330217282?text=Olá, vim pelo site e gostaria de mais informações!" 
+       class="whatsapp-btn" 
+       target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Redes Sociais -->
+    <section class="social">
+        <h2>Siga-nos</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/consertaa/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="contact">
+        <h2>Orçamento Rápido</h2>
+        <form action="https://formsubmit.co/consertaassistenciatecnica@hotmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="tel" name="phone" placeholder="Seu WhatsApp" required>
+            <textarea name="message" placeholder="Descreva o problema..." required></textarea>
+            <button type="submit">Solicitar Orçamento</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
